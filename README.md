@@ -2,6 +2,9 @@
 
 # Sticker Album
 
+## Live Demo
+https://tranquil-chebakia-a6a239.netlify.app/
+
 ## Project setup
 ```
 npm install
