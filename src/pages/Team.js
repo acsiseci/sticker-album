@@ -8,7 +8,7 @@ import Button from "../components/buttons/button/Button";
 import PersonCard from "../components/cards/personCard/PersonCard";
 
 const Team = () => {
-    const {page, nextPage, prevPage} = useContext(AuthContext);
+    const {page,pageCount, nextPage, prevPage} = useContext(AuthContext);
     const [team, setTeam] = useState();
 
     useEffect(() => {
@@ -23,7 +23,7 @@ const Team = () => {
                         <Button text={"prev"} action={prevPage} show={page > -1}></Button>
                     </div>
                     <div className="col-6 d-lg-none">
-                        <Button text={"next"} action={nextPage}></Button>
+                        <Button text={"next"} action={nextPage}  show={pageCount > page}></Button>
                     </div>
                 </div>
                 <div className="row">
