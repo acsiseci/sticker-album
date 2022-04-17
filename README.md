@@ -1,9 +1,19 @@
 ![sticker-album](https://user-images.githubusercontent.com/10503903/163694988-55c4a60d-505f-4948-90b3-9edc65d495f0.png)
 
 # Sticker Album
+An application for team members to get to know each other.
 
 ## Live Demo
 https://tranquil-chebakia-a6a239.netlify.app/
+
+## Used Technologies and Libraries
+```
+react
+react-router-dom
+node-sass
+bootstrap
+context (state management)
+```
 
 ## Folder Structure
 
