@@ -1,0 +1,44 @@
+@media (min-width: 991px) {
+  .swiper-button-next {
+    display: block !important;
+    position: absolute !important;
+    right: 20px !important;
+  }
+  .swiper-button-prev {
+    display: block !important;
+    position: absolute !important;
+    left: 20px !important;
+  }
+}
+
+.swiper-button-prev {
+  display: none;
+  top: 0;
+  margin-top: 0;
+  height: calc(100% - 0px);
+  padding: 0px 15px;
+  text-align: center;
+  color: transparent !important;
+  background-image: url(https://cdn.dsmcdn.com/mrktng/crm/staticPage/digitalGoods/left.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  cursor: pointer !important;
+  box-sizing: content-box !important;
+}
+
+.swiper-button-next {
+  display: block;
+  top: 0;
+  margin-top: 0;
+  height: calc(100% - 0px);
+  padding: 0px 15px;
+  text-align: center;
+  color: transparent !important;
+  background-image: url(https://cdn.dsmcdn.com/mrktng/crm/staticPage/digitalGoods/right.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  cursor: pointer !important;
+  box-sizing: content-box !important;
+}
